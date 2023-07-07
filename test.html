@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Example</title>
+</head>
+<body>
+	<div id="container">
+		<p>Hello, world!</p>
+	</div>
+
+	<script>
+		// Get a reference to the container element
+		var container = document.getElementById("container");
+
+		// Create a new paragraph element
+		var newParagraph = document.createElement("p");
+
+		// Set the text of the paragraph
+		newParagraph.textContent = "This is a new paragraph.";
+
+		// Add the paragraph to the container
+		container.appendChild(newParagraph);
+	</script>
+</body>
+</html>

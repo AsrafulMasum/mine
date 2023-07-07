@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Dental Bros.</title>
+</head>
+<body class="bg-[#FAFAFA] font-[Poppins] m-[0]">
+
+  <header class="flex w-[1350px] h-[55px] bg-[#FFFFFF] justify-between fixed shadow-[0_2px_12px_1px_rgba(0,0,0,0.12)]">
+    <nav class="ml-[28.5px] mt-[6px]">
+      <a class="w-[144px] h-[43px] text-[#000000] text-[24px] font-[800] leading-[43.2px]" href="#">Dental Bros.</a>
+    </nav>
+    <nav class="flex justify-between w-[450px] font-[500] text-[#474747] text-[14px] leading-[21px] mt-[17px]">
+      <a class="text-[#F96262] font-[700] hover:text-[#474747] duration-150" href="#">HOME</a>
+      <div class="flex group">
+        <a class="group-hover:text-[#F96262] duration-150" href="#">SERVICES</a>
+        <a href="#">
+          <span class="material-symbols-rounded hidden group-hover:block duration-150">
+            expand_more
+          </span>
+        </a>
+      </div> 
+      <div class="flex group">
+        <a class="group-hover:text-[#F96262] duration-150" href="#">SPECIALIST</a>
+        <a href="#">
+          <span class="material-symbols-rounded hidden group-hover:block duration-150">
+            expand_more
+          </span>
+        </a>
+      </div> 
+      <a class="hover:text-[#F96262] duration-150" href="#">ABOUT US</a>
+      <a class="hover:text-[#F96262] duration-150" href="#">REVIEWS</a>
+    </nav>
+    <nav class="flex mr-[28.5px]">
+      <div class="group">
+        <a href="#" class="flex justify-evenly w-[100px] h-[38px] rounded-[8px] border-[1px] 
+          border-[#F96262] mt-[8.5px] mr-[5px] group-hover:border-[#474747] group-hover:bg-[#474747] duration-150">
+          <span class="material-symbols-rounded h-[11.25px] w-[8.57px] text-[#474747] py-[6px]
+            group-hover:text-[#F96262] duration-150">
+            person
+          </span>
+          <span class="text-[#474747] text-[12px] font-[500] leading-[14.4px] py-[12px]
+            group-hover:text-[#F96262] duration-150">Log In</span>
+        </a>
+      </div>
+      <div class="group w-[168px] h-[38px] rounded-[8px]">
+        <button class="w-[168px] h-[38px] bg-[#F96262] rounded-[8px] mt-[8.5px] text-[#FFFFFF]
+        text-[12px] font-[500] leading-[14.4px] py-[12px] px-[18px] group-hover:bg-[#474747] 
+        group-hover:text-[#F96262] duration-150">Book An Appointment</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="flex justify-between h-[650px] w-[1350px]" style="background-image: url(Images/dental/Line.svg);">
+    <div class="flex flex-col">
+      <div class="pt-[100px] flex">
+        <input class="bg-[#FFFFFF] h-[49px] w-[300px] rounded-l-[8px] placeholder:text-[#444444]
+         font-[400] text-[14px] leading-[17.5px] ml-[34.5px] tracking-[-1%] focus:outline-none"
+         type="text" placeholder="Search">
+        <button class="bg-[#F96262] group hover:bg-[#474747] duration-150 w-[50px] h-[49px] rounded-r-[8px] text-[#474747] text-[12px] font-[500] leading-[14.4px]">
+          <span class="material-symbols-rounded pt-[4px] pr-[22px] text-gray w-[16.4px] h-[17.33px] group-hover:text-[#F96262] duration-150">
+            search
+          </span>
+        </button>
+      </div>
+      <div class="pt-[10px] pl-[28.5px]">
+        <img class="w-[40px] h-[40px]" src="Images/dental/star.svg" alt="Star">
+      </div>
+      <span class="font-[800] text-[#1F1F1F] text-[60px] leading-[77px] w-[620px] h-[154px] mt-[8px] ml-[28.5px]">
+        Improving Lives, One<span class="text-[#4DCCBD] font-[700]"> Smile </span>At A Time
+      </span>
+      <span class="font-[400] text-[#3D3D3D] text-[16px] leading-[28.8px] w-[640px] h-[87px] mt-[24px] ml-[30px]">
+        At our dental clinic, we believe that a healthy smile is a beautiful smile.
+        That's why we offer a full range of services to help you achieve optimal oral health and a confident smile that you can be proud of.
+      </span>
+      <div class="flex ml-[30px] mt-[60px]">
+        <div class="group">
+          <button class="bg-[#F96262] w-[272px] h-[56px] rounded-[8px] text-[#FFFFFF] text-[16px] font-[500]
+            leading-[19.2px] group-hover:bg-[#474747] group-hover:text-[#F96262] duration-150">
+            Book An Appointment 
+          </button>
+        </div>
+        <div class="group">
+          <button class="bg-[#FFFFFF] w-[197px] h-[56px] rounded-[8px] ml-[12px] border-[1px] border-[#E0E0E0]
+            text-[#F96262] text-[16px] font-[500] leading-[24px] group-hover:bg-[#474747] duration-150">
+            Our Services
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="h-[612px] mt-[78px] bg-right-top" style="background-image: url(Images/dental/round.svg); background-repeat: no-repeat;">
+      <div>
+        <img class="h-[449px] pt-[24px] pr-[20px]" src="Images/dental/doctor.png" alt="Doctors">
+      </div>
+      <div class="flex ml-[-30px] bg-[#FFFFFF] w-[556px] h-[84px] rounded-[8px] p-[13px_30px] shadow-[2px_12px_17px_rgba(77,204,189,0.35)]">
+        <a class="flex flex-col border-r-[1px] pr-[25px]" href="#">
+          <span class="text-[#49CBBB] text-[24px] font-[800] pl-[20px]">250+</span>
+          <span class="text-[#1F1F1F] text-[12px] font-[500] pl-[5px]">Dental Surgery</span>
+        </a>
+        <a class="flex flex-col border-r-[1px] pr-[40px] pl-[40px]" href="#">
+          <span class="text-[#49CBBB] text-[24px] font-[800]">750+</span>
+          <span class="text-[#1F1F1F] text-[12px] font-[500] pl-[7px]">Fillings</span>
+        </a>
+        <a class="flex flex-col border-r-[1px] pr-[25px] pl-[25px]" href="#">
+          <span class="text-[#49CBBB] text-[24px] font-[800] pl-[13px]">100+</span>
+          <span class="text-[#1F1F1F] text-[12px] font-[500]">Orthodontics</span>
+        </a>
+        <a class="flex flex-col pl-[30px]" href="#">
+          <span class="text-[#49CBBB] text-[24px] font-[800] pl-[15px]">50+</span>
+          <span class="text-[#1F1F1F] text-[12px] font-[500]">Oral Surgery</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="flex justify-between bg-[#231651] w-[1350px] h-[666px]">
+    <div>
+      <div class="pt-[81px] pl-[466px]">
+        <img class="w-[40px] h-[40px]" src="Images/dental/star.svg" alt="Star">
+      </div>
+      <div>
+        <div class="ml-[28.5px] mt-[-20px]">
+          <span class="text-[#E1DBF5] text-[40px] font-[700] leading-[77px]">Why We Are The Best</span>
+        </div>
+        <div class="ml-[28.5px] mt-[18px] w-[650px] h-[72px]">
+          <span class="text-[#9B8FE0] text-[16px] font-[400] leading-[24px]">Our team of dental experts is dedicated to providing you with the highest quality care possible.
+            With years of experience and a commitment to ongoing education and training, we have the skills to help you achieve a healthy, beautiful smile.
+          </span>
+          <hr class="border-[#292929] mt-[28.5px]">
+        </div>
+        <div class="flex">
+            <a href="#" class="flex flex-col w-[200px] h-[250px] bg-[#1C1140] rounded-[8px] mt-[64px] ml-[28.5px] text-center">
+              <span class="material-symbols-rounded text-[#4DCCBD] text-[65px] mt-[25px]">
+                 electric_bolt
+              </span>
+              <br>
+              <span class="text-[#DFFFFB] text-[14px] font-[600] leading-[21px]">
+                Laser Technology
+              </span>
+              <br>
+              <span class="text-[#E1DBF5] text-[14px] font-[400] leading-[21px]">
+                Think instead about what you’re hoping.
+              </span>
+            </a>
+           
+            <a href="#" class="flex flex-col w-[200px] h-[250px] bg-[#1C1140] rounded-[8px] mt-[64px] ml-[24px] text-center">
+              <span class="material-symbols-rounded text-[#4DCCBD] text-[65px] mt-[25px]">
+                dentistry
+              </span>
+              <br>
+              <span class="text-[#DFFFFB] text-[14px] font-[600] leading-[21px]">
+                3D Dental Scanner
+              </span>
+              <br>
+              <span class="text-[#E1DBF5] text-[14px] font-[400] leading-[21px]">
+                Think instead about what you’re hoping.
+              </span>
+            </a>
+           
+            <a href="#" class="flex flex-col w-[200px] h-[250px] bg-[#1C1140] rounded-[8px] mt-[64px] ml-[24px] text-center">
+              <span class="material-symbols-rounded text-[#4DCCBD] text-[65px] mt-[25px]">
+                oral_disease
+              </span>
+              <br>
+              <span class="text-[#DFFFFB] text-[14px] font-[600] leading-[21px]">
+                Painless Implant
+              </span>
+              <br>
+              <span class="text-[#E1DBF5] text-[14px] font-[400] leading-[21px]">
+                Think instead about what you’re hoping.
+              </span>
+            </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="w-[522px] h-[475px] mt-[94px] mr-[28.5px]" style="background-image: url(Images/dental/bg.png); background-repeat: no-repeat;">
+        <img class="w-[410px] h-[460px] pt-[15px] ml-[56px]" src="Images/dental/teeth.png" alt="Teeth">
+      </div>
+      <div class="group w-[272px] h-[50px] rounded-[8px] ml-[125px] mt-[-20px]">
+        <button class="w-[272px] h-[50px] bg-[#F96262] rounded-[8px] text-[#FFFFFF]
+          text-[16px] font-[500] leading-[19.2px] py-[12px] px-[18px] group-hover:bg-[#474747] 
+          group-hover:text-[#F96262] duration-150">
+          Book An Appointment
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#F5F7FA] w-[1350px] h-[1350px]">
+    <div class=" pt-[47px] ml-[28.5px] mr-[28.5px]">
+      <div class="flex justify-between">
+        <span class="text-[#F96262] text-[40px] font-[700] leading-[77px]">Our Services</span>
+        <span class="w-[650px] h-[63px] text-[#474747] text-[14px] font-[400] leading-[21px] pt-[20px]">
+          Quit counting fans, followers, and blog subscribers like bottle caps.Think instead about what
+          you’re hoping to achieve with and through the community that actually cares about what you’re doing.
+        </span>
+      </div>
+      <hr class="text-[#EBEBEB] mt-[33px]">
+    </div>
+
+    <div class="ml-[42.5px] mr-[28.5px] mt-[32px] grid grid-cols-4">
+
+      <div class="bg-[#FFFFFF] flex flex-col justify-between w-[305px] h-[412px] text-center border-[1px] rounded-[8px] border-[#EBEBEB]">
+        <a class="flex flex-col" href="#">
+          <img class="w-[290px] pt-[12px] pl-[12px]" src="Images/dental/cleaning.png" alt="Teeth Cleaning">
+          <span class="text-[#212121] text-[20px] font-[700] leading-[30px] mt-[25px]">
+            Teeth Cleaning
+          </span>
+          <span class="w-[266px] text-[#474747] text-[13px] font-[400] leading-[19.5px] ml-[20px] mt-[10px]">
+            Keep your teeth shining bright with our professional teeth cleaning services. 
+          </span>
+        </a>
+        <div class="group w-[210px] h-[50px] rounded-[8px] ml-[46px] mb-[25px]">
+          <button class="w-[210px] h-[50px] bg-[#F5F7FA] border-[1px] border-[#EDEDED] rounded-[8px] text-[#F96262]
+            text-[14px] font-[500] leading-[16px] py-[12px] px-[18px] group-hover:bg-[#F96262] 
+            group-hover:text-[#FFFFFF] duration-150">
+            Book An Appointment
+        </button>
+        </div>
+      </div>
+
+      <div class="bg-[#FFFFFF] flex flex-col justify-between w-[305px] h-[412px] text-center border-[1px] rounded-[8px] border-[#EBEBEB]">
+        <a class="flex flex-col" href="#">
+          <img class="w-[290px] pt-[12px] pl-[12px]" src="Images/dental/whitening.png" alt="Teeth Cleaning">
+          <span class="text-[#212121] text-[20px] font-[700] leading-[30px] mt-[25px]">
+            Teeth Whitening
+          </span>
+          <span class="w-[266px] text-[#474747] text-[13px] font-[400] leading-[19.5px] ml-[20px] mt-[10px]">
+            Say goodbye to stains and discoloration with our teeth whitening treatments.
+            Our safe and effective methods can lighten your teeth several shades  
+          </span>
+        </a>
+        <div class="group w-[210px] h-[50px] rounded-[8px] ml-[46px] mb-[25px]">
+          <button class="w-[210px] h-[50px] bg-[#F5F7FA] border-[1px] border-[#EDEDED] rounded-[8px] text-[#F96262]
+            text-[14px] font-[500] leading-[16px] py-[12px] px-[18px] group-hover:bg-[#F96262] 
+            group-hover:text-[#FFFFFF] duration-150">
+            Book An Appointment
+        </button>
+        </div>
+      </div>
+
+      <div class="bg-[#FFFFFF] flex flex-col justify-between w-[305px] h-[412px] text-center border-[1px] rounded-[8px] border-[#EBEBEB]">
+        <a class="flex flex-col" href="#">
+          <img class="w-[290px] pt-[12px] pl-[12px]" src="Images/dental/feelings.png" alt="Teeth Cleaning">
+          <span class="text-[#212121] text-[20px] font-[700] leading-[30px] mt-[25px]">
+            Fillings
+          </span>
+          <span class="w-[266px] text-[#474747] text-[13px] font-[400] leading-[19.5px] ml-[20px] mt-[10px]">
+            If you have a cavity or tooth decay, our dental team can provide fillings
+            to restore your tooth's structure and prevent further damage. 
+          </span>
+        </a>
+        <div class="group w-[210px] h-[50px] rounded-[8px] ml-[46px] mb-[25px]">
+          <button class="w-[210px] h-[50px] bg-[#F5F7FA] border-[1px] border-[#EDEDED] rounded-[8px] text-[#F96262]
+            text-[14px] font-[500] leading-[16px] py-[12px] px-[18px] group-hover:bg-[#F96262] 
+            group-hover:text-[#FFFFFF] duration-150">
+            Book An Appointment
+        </button>
+        </div>
+      </div>
+
+      <div class="bg-[#FFFFFF] flex flex-col justify-between w-[305px] h-[412px] text-center border-[1px] rounded-[8px] border-[#EBEBEB]">
+        <a class="flex flex-col" href="#">
+          <img class="w-[290px] pt-[12px] pl-[12px]" src="Images/dental/root.png" alt="Teeth Cleaning">
+          <span class="text-[#212121] text-[20px] font-[700] leading-[30px] mt-[25px]">
+            Root Canal Therapy
+          </span>
+          <span class="w-[266px] text-[#474747] text-[13px] font-[400] leading-[19.5px] ml-[20px] mt-[10px]">
+            If you're experiencing severe tooth pain, root canal therapy may be necessary to save your tooth.  
+          </span>
+        </a>
+        <div class="group w-[210px] h-[50px] rounded-[8px] ml-[46px] mb-[25px]">
+          <button class="w-[210px] h-[50px] bg-[#F5F7FA] border-[1px] border-[#EDEDED] rounded-[8px] text-[#F96262]
+            text-[14px] font-[500] leading-[16px] py-[12px] px-[18px] group-hover:bg-[#F96262] 
+            group-hover:text-[#FFFFFF] duration-150">
+            Book An Appointment
+        </button>
+        </div>
+      </div>
+
+      <div class="bg-[#FFFFFF] flex flex-col justify-between mt-[20px] w-[305px] h-[412px] text-center border-[1px] rounded-[8px] border-[#EBEBEB]">
+        <a class="flex flex-col" href="#">
+          <img class="w-[290px] pt-[12px] pl-[12px]" src="Images/dental/crown.png" alt="Teeth Cleaning">
+          <span class="text-[#212121] text-[20px] font-[700] leading-[30px] mt-[25px]">
+            Crowns And Bridges
+          </span>
+          <span class="w-[266px] text-[#474747] text-[13px] font-[400] leading-[19.5px] ml-[20px] mt-[10px]">
+            Our dental team uses high-quality materials to create custom-made restorations that look and feel natural. 
+          </span>
+        </a>
+        <div class="group w-[210px] h-[50px] rounded-[8px] ml-[46px] mb-[25px]">
+          <button class="w-[210px] h-[50px] bg-[#F5F7FA] border-[1px] border-[#EDEDED] rounded-[8px] text-[#F96262]
+            text-[14px] font-[500] leading-[16px] py-[12px] px-[18px] group-hover:bg-[#F96262] 
+            group-hover:text-[#FFFFFF] duration-150">
+            Book An Appointment
+        </button>
+        </div>
+      </div>
+
+      <div class="bg-[#FFFFFF] flex flex-col justify-between mt-[20px] w-[305px] h-[412px] text-center border-[1px] rounded-[8px] border-[#EBEBEB]">
+        <a class="flex flex-col" href="#">
+          <img class="w-[290px] pt-[12px] pl-[12px]" src="Images/dental/orthodontics.png" alt="Teeth Cleaning">
+          <span class="text-[#212121] text-[20px] font-[700] leading-[30px] mt-[25px]">
+            Orthodontics
+          </span>
+          <span class="w-[266px] text-[#474747] text-[13px] font-[400] leading-[19.5px] ml-[20px] mt-[10px]">
+            Straighten your teeth and improve your bite with our orthodontic services. We offer a variety of options. 
+          </span>
+        </a>
+        <div class="group w-[210px] h-[50px] rounded-[8px] ml-[46px] mb-[25px]">
+          <button class="w-[210px] h-[50px] bg-[#F5F7FA] border-[1px] border-[#EDEDED] rounded-[8px] text-[#F96262]
+            text-[14px] font-[500] leading-[16px] py-[12px] px-[18px] group-hover:bg-[#F96262] 
+            group-hover:text-[#FFFFFF] duration-150">
+            Book An Appointment
+        </button>
+        </div>
+      </div>
+
+      <div class="bg-[#FFFFFF] flex flex-col justify-between mt-[20px] w-[305px] h-[412px] text-center border-[1px] rounded-[8px] border-[#EBEBEB]">
+        <a class="flex flex-col" href="#">
+          <img class="w-[290px] pt-[12px] pl-[12px]" src="Images/dental/implan.png" alt="Teeth Cleaning">
+          <span class="text-[#212121] text-[20px] font-[700] leading-[30px] mt-[25px]">
+            Dental Implants
+          </span>
+          <span class="w-[266px] text-[#474747] text-[13px] font-[400] leading-[19.5px] ml-[20px] mt-[10px]">
+            Replace missing teeth with durable and natural-looking dental implants.
+            Our dentists use state-of-the-art technology to place implants . 
+          </span>
+        </a>
+        <div class="group w-[210px] h-[50px] rounded-[8px] ml-[46px] mb-[25px]">
+          <button class="w-[210px] h-[50px] bg-[#F5F7FA] border-[1px] border-[#EDEDED] rounded-[8px] text-[#F96262]
+            text-[14px] font-[500] leading-[16px] py-[12px] px-[18px] group-hover:bg-[#F96262] 
+            group-hover:text-[#FFFFFF] duration-150">
+            Book An Appointment
+        </button>
+        </div>
+      </div>
+
+      <div class="bg-[#FFFFFF] flex flex-col justify-between mt-[20px] w-[305px] h-[412px] text-center border-[1px] rounded-[8px] border-[#EBEBEB]">
+        <a class="flex flex-col" href="#">
+          <img class="w-[290px] pt-[12px] pl-[12px]" src="Images/dental/oral.png" alt="Teeth Cleaning">
+          <span class="text-[#212121] text-[20px] font-[700] leading-[30px] mt-[25px]">
+            Oral Surgery
+          </span>
+          <span class="w-[266px] text-[#474747] text-[13px] font-[400] leading-[19.5px] ml-[20px] mt-[10px]">
+            From wisdom teeth removal to jaw surgery, our oral surgeons can provide the care you need to maintain your oral health and function.
+          </span>
+        </a>
+        <div class="group w-[210px] h-[50px] rounded-[8px] ml-[46px] mb-[25px]">
+          <button class="w-[210px] h-[50px] bg-[#F5F7FA] border-[1px] border-[#EDEDED] rounded-[8px] text-[#F96262]
+            text-[14px] font-[500] leading-[16px] py-[12px] px-[18px] group-hover:bg-[#F96262] 
+            group-hover:text-[#FFFFFF] duration-150">
+            Book An Appointment
+        </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#4DCCBD] w-[1293px] h-[240px] ml-[28.5px] rounded-[8px] mt-[50px]">
+      <div class="h-[72px] pt-[40px] pl-[171.5px] pr-[171.5px] text-center">
+        <span class="text-[#FFFFFF] text-[24px] font-[600] leading-[36px]">
+          Ready to achieve a healthy and beautiful smile? Schedule your appointment with us today
+          and experience the exceptional care of our experienced team.
+        </span>
+      </div>
+      <div class="group w-[272px] h-[50px] rounded-[8px] ml-[500px] mt-[80px]">
+        <button class="w-[272px] h-[50px] bg-[#F96262] rounded-[8px] text-[#FFFFFF]
+          text-[16px] font-[500] leading-[19.2px] py-[12px] px-[18px] group-hover:bg-[#474747] 
+          group-hover:text-[#F96262] duration-150">
+          See All Our Services
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="flex bg-[#FFFFFF] w-[1350px] h-[665px]">
+    <div class="ml-[28.5px] mr-[28.5px] pt-[65px] w-[555px]">
+      <div>
+        <span class="text-[#F96262] text-[18px] font-[600] leading-[21px] ml-[10px]">About Us</span>
+        <hr class="text-[#D4D4D4] mt-[10px] border-[1px] w-[410px]">
+      </div>
+      <div class="w-[438px] h-[120px] mt-[10px]">
+        <span class="text-[#1F1F1F] text-[40px] font-[700] leading-[60px]">
+          We care About Your Dental Health
+        </span>
+      </div>
+      <div class="w-[497px] h-[100px] mt-[20px]">
+        <span class="text-[#474747] text-[16px] font-[400] leading-[24px]">
+          Transform your smile with our comprehensive dental services. From routine cleanings to advanced cosmetic treatments,
+          we offer personalized care to help you achieve a healthy, beautiful smile.
+        </span>
+      </div>
+      <div>
+        <div class="flex mt-[55px]">
+          <span class="material-symbols-rounded">
+            check_box
+          </span>
+          <span class="text-[#474747] text-[16px] font-[500] leading-[24px] ml-[10px]">
+            Top Quality Dental Team
+          </span>
+        </div>
+
+        <div class="flex mt-[16px]">
+          <span class="material-symbols-rounded">
+            check_box
+          </span>
+          <span class="text-[#474747] text-[16px] font-[500] leading-[24px] ml-[10px]">
+            State Of The Art Dental Services
+          </span>
+        </div>
+
+        <div class="flex mt-[16px]">
+          <span class="material-symbols-rounded">
+            check_box
+          </span>
+          <span class="text-[#474747] text-[16px] font-[500] leading-[24px] ml-[10px]">
+            Flexible Payment 
+          </span>
+        </div>
+
+        <div class="flex mt-[16px]">
+          <span class="material-symbols-rounded">
+            check_box
+          </span>
+          <span class="text-[#474747] text-[16px] font-[500] leading-[24px] ml-[10px]">
+            Caring Professionals
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="mt-[95px] mr-[28.5px] w-[738px] h-[466px] rounded-[8px]" style="background-image: url(Images/dental/lobby.png);">
+      <div class="flex justify-between  w-[327px] h-[150px] bg-[#F5F7FA] rounded-[8px] ml-[132px] mt-[-58px] shadow-[4px_4px_31px_1px_rgba(0,0,0,0.08)]">
+        <div class="bg-[#FDB2AD] w-[136px] h-[110px] rounded-[8px] mt-[20px] ml-[18px]">
+          <img class="pt-[12px] pl-[26px]" src="Images/dental/secure.png" alt="Logo">
+        </div>
+        <div class="mt-[34px] mr-[18px]">
+          <span class="w-[115px] h-[21px] block text-[#13433E] text-[14px] font-[600] leading-[21px] mb-[6px]">Painless Implan</span>  
+          <span class="w-[128px] h-[54px] block text-[#1B5F57] text-[12px] font-[400] leading-[18px]">Quit counting fans, followers, and blog subscr ibers like</span>
+        </div>
+      </div>
+      <div class="flex justify-between w-[235px] h-[108px] bg-[#EBFFFB] rounded-[8px] ml-[-208px] mt-[300px] shadow-[4px_4px_31px_1px_rgba(0,0,0,0.08)]">
+        <div class="bg-[#FDB2AD] w-[84px] h-[84px] rounded-[8px] mt-[12px] ml-[12px]">
+          <img class="pt-[19px] pl-[19px]" src="Images/dental/Vector.png" alt="Logo">
+        </div>
+        <div class="mt-[30px] mr-[48px]">
+          <span class="w-[61px] h-[30px] block text-[#4DCCBD] text-[24px] font-[700] leading-[36px]">250+</span>       
+          <span class="w-[59px] h-[21px] block text-[#4DCCBD] text-[14px] font-[500] leading-[21px]">Surgery </span>
+        </div>
+      </div>
+      <div class="flex flex-col justify-between  w-[142px] h-[207px] bg-[#EBFFFB] rounded-[8px] ml-[563px] mt-[-160px] shadow-[4px_4px_31px_1px_rgba(0,0,0,0.08)]">
+        <div class="bg-[#FDB2AD] w-[110px] h-[86px] rounded-[8px] mt-[16px] ml-[16px]">
+          <img class="pt-[21px] pl-[28px]" src="Images/dental/Vector1.png" alt="Logo">
+        </div>
+        <div class="ml-[22px] mb-[34px]">
+          <span class="w-[99px] h-[18px] block text-[#4DCCBD] text-[12px] font-[700] leading-[18px] mb-[8px]">Painless Implan</span> 
+          <span class="w-[120px] h-[30px] block text-[#474747] text-[10px] font-[500] leading-[15px]">Think instead about what you’re hoping</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#231651] w-[1350px] h-[690px]">
+    <div>
+      <div class="flex justify-between pt-[70px] ml-[28.5px] mr-[28.5px]">
+        <span class="text-[#E1DBF5] text-[40px] font-[700] leading-[60px]">Meet Our Dental Specialist</span>
+        <div class="group h-[60px]">
+          <button class="rounded-[8px] border-[1px] h-[60px] border-solid border-[#E1DBF5] px-[24px] text-[#E1DBF5] text-[16px]
+            font-[500] leading-[19.2px] group-hover:bg-[#1C1140]">
+            See All Our Specialist
+          </button>
+        </div>
+      </div>
+      <div class="flex justify-between ml-[28.5px] mt-[48px] mr-[28.5px]">
+        <a href="#" class="bg-[#1C1140] w-[298px] h-[397px] rounded-[8px] pt-[14px]">
+          <div class="bg-[#E3DBFD] w-[271px] h-[243px] rounded-[4px] ml-[14px]">
+            <img class="pt-[7px] ml-[24px]" src="Images/dental/doc.png" alt="Doctors">
+          </div>
+          <div class="flex flex-col ml-[14px] mt-[16px]">
+            <span class="w-[147px] h-[30px] text-[#E1DBF5] text-[20px] font-[600] leading-[30px]">Alex Patterson</span>
+            <span class="w-[273px] h-[42px] text-[#9B8FE0] text-[14px] font-[400] leading-[21px]">General dentist, periodontist,children’s dentist</span>
+          </div>
+        </a>
+
+        <a href="#" class="bg-[#1C1140] w-[298px] h-[397px] rounded-[8px] pt-[14px]">
+          <div class="bg-[#E3DBFD] w-[271px] h-[243px] rounded-[4px] ml-[14px]">
+            <img class="pt-[7px] ml-[45px]" src="Images/dental/doc1.png" alt="Doctors">
+          </div>
+          <div class="flex flex-col ml-[14px] mt-[16px]">
+            <span class="w-[147px] h-[30px] text-[#E1DBF5] text-[20px] font-[600] leading-[30px]">Alex Patterson</span>
+            <span class="w-[273px] h-[42px] text-[#9B8FE0] text-[14px] font-[400] leading-[21px]">General dentist, periodontist,children’s dentist</span>
+          </div>
+        </a>
+
+        <a href="#" class="bg-[#1C1140] w-[298px] h-[397px] rounded-[8px] pt-[14px]">
+          <div class="bg-[#E3DBFD] w-[271px] h-[243px] rounded-[4px] ml-[14px]">
+            <img class="pt-[7px] ml-[29px]" src="Images/dental/doc2.png" alt="Doctors">
+          </div>
+          <div class="flex flex-col ml-[14px] mt-[16px]">
+            <span class="w-[147px] h-[30px] text-[#E1DBF5] text-[20px] font-[600] leading-[30px]">Alex Patterson</span>
+            <span class="w-[273px] h-[42px] text-[#9B8FE0] text-[14px] font-[400] leading-[21px]">General dentist, periodontist,children’s dentist</span>
+          </div>
+        </a>
+
+        <a href="#" class="bg-[#1C1140] w-[298px] h-[397px] rounded-[8px] pt-[14px]">
+          <div class="bg-[#E3DBFD] w-[271px] h-[243px] rounded-[4px] ml-[14px]">
+            <img class="pt-[7px] ml-[40px]" src="Images/dental/doc3.png" alt="Doctors">
+          </div>
+          <div class="flex flex-col ml-[14px] mt-[16px]">
+            <span class="w-[147px] h-[30px] text-[#E1DBF5] text-[20px] font-[600] leading-[30px]">Alex Patterson</span>
+            <span class="w-[273px] h-[42px] text-[#9B8FE0] text-[14px] font-[400] leading-[21px]">General dentist, periodontist,children’s dentist</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="flex justify-between ml-[30px] mr-[30px] mt-[35px]">
+      <a href="#">
+        <span class="material-symbols-rounded text-[#E1DBF5] bg-[#1C1140] rounded-full h-[50px] w-[50px] text-center text-[35px] pt-[7px] opacity-25">
+          arrow_back
+        </span>
+      </a>
+      <a href="#">
+        <span class="material-symbols-rounded text-[#E1DBF5] bg-[#1C1140] rounded-full h-[50px] w-[50px] text-center text-[35px] pt-[7px]">
+          arrow_forward
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <section class="bg-[#FDF7F7] w-[1350px] h-[720px]">
+
+    <div class="pt-[40px] pl-[220px] w-[1000px]">
+      <h1 class="w-[884px] h-[174px] font-[800] text-[124px] leading-[173.6px] text-[#FFECEC] text-[#F7F7F7]">TESTIMONIALS</h1>
+      <span class="w-[900px] h-[67px] font-[700] text-[48px] leading-[67.2px] text-[#281B01] pl-[30px] mt-[-100px] block">
+        What Our Customers Say About Us
+      </span>
+      <span class="w-[800px] h-[64px] font-[400] text-[18px] text-[#474747] leading-[32.4px] text-center block mt-[20px] ml-[50px]">
+        See what our patients have to say about us! Read reviews from satisfied customers who have experienced our top-quality dental care firsthand.
+      </span>
+    </div>
+
+
+    <div class="flex mt-[49px] ml-[20px] mr-[20px] justify-between">
+
+      <a href="#" class="bg-[#FFFFFF] w-[420px] h-[290px] rounded-[8px] shadow-[4px_6px_50px_rgba(0,0,0,0.1)]">
+        <div class="flex">
+          <img class="h-[23.68px] w-[12.79px] ml-[25.74px] mt-[35.88px]" src="Images/dental/coma.png" alt="coma">
+          <img class="h-[23.68px] w-[12.79px] ml-[2.93px] mt-[40.45px]" src="Images/dental/coma.png" alt="coma">
+          <span class="text-[#474747] w-[333px] h-[139px] font-[400] text-[16px] leading-[28.8px] mt-[34px] ml-[15.74px]">
+            Great experience! The staff was very friendly and the dentist was gentle and informative. I felt comfortable throughout the entire visit.
+          </span>
+        </div>
+        <hr class="ml-[24px] mr-[24px] mt-[29px]">
+        <div class="flex mt-[15px]">
+          <img class="w-[56px] h-[56px] rounded-full ml-[24px]" src="Images/dental/profile1.png" alt="User">
+          <div class="flex flex-col ml-[16px]">
+            <span class="w-[80px] h-[30px] font-[700] text-[20px] text-[Text] leading-[30px]">Sarah S</span>
+            <span class="w-[145px] h-[21px] font-[400] text-[14px] text-[#474747] leading-[21px]">Ecommerce Website</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="bg-[#FFFFFF] w-[420px] h-[290px] rounded-[8px] shadow-[4px_6px_50px_rgba(0,0,0,0.1)]">
+        <div class="flex">
+          <img class="h-[23.68px] w-[12.79px] ml-[25.74px] mt-[35.88px]" src="Images/dental/coma.png" alt="coma">
+          <img class="h-[23.68px] w-[12.79px] ml-[2.93px] mt-[40.45px]" src="Images/dental/coma.png" alt="coma">
+          <span class="text-[#474747] w-[333px] h-[139px] font-[400] text-[16px] leading-[28.8px] mt-[34px] ml-[15.74px]">
+            I've been coming to this dental clinic for years and have always been impressed with the level of care I receive. The staff is knowledgeable and friendly and the office is always clean and welcoming.
+          </span>
+        </div>
+        <hr class="ml-[24px] mr-[24px] mt-[29px]">
+        <div class="flex mt-[15px]">
+          <img class="w-[56px] h-[56px] rounded-full ml-[24px]" src="Images/dental/profile2.png" alt="User">
+          <div class="flex flex-col ml-[16px]">
+            <span class="w-[80px] h-[30px] font-[700] text-[20px] text-[Text] leading-[30px]">John D</span>
+            <span class="w-[161px] h-[21px] font-[400] text-[14px] text-[#474747] leading-[21px]">Digital Agency Website</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="bg-[#FFFFFF] w-[420px] h-[290px] rounded-[8px] shadow-[4px_6px_50px_rgba(0,0,0,0.1)]">
+        <div class="flex">
+          <img class="h-[23.68px] w-[12.79px] ml-[25.74px] mt-[35.88px]" src="Images/dental/coma.png" alt="coma">
+          <img class="h-[23.68px] w-[12.79px] ml-[2.93px] mt-[40.45px]" src="Images/dental/coma.png" alt="coma">
+          <span class="text-[#474747] w-[333px] h-[139px] font-[400] text-[16px] leading-[28.8px] mt-[34px] ml-[15.74px]">
+            I was nervous about getting a filling, but the dentist made me feel at ease and the procedure was quick and painless. I would definitely recommend this clinic to anyone in need of dental care.
+          </span>
+        </div>
+        <hr class="ml-[24px] mr-[24px] mt-[29px]">
+        <div class="flex mt-[15px]">
+          <img class="w-[56px] h-[56px] rounded-full ml-[24px]" src="Images/dental/profile3.png" alt="User">
+          <div class="flex flex-col ml-[16px]">
+            <span class="w-[80px] h-[30px] font-[700] text-[20px] text-[Text] leading-[30px]">Maria G</span>
+            <span class="w-[145px] h-[21px] font-[400] text-[14px] text-[#474747] leading-[21px]">Brand Shop Website</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="flex ml-[20px] mr-[20px] justify-between mt-[30px]">
+      <a href="#" class="w-[56px] h-[56px] bg-[#FFFFFF] rounded-full shadow-[4px_6px_50px_rgba(0,0,0,0.1)]">
+        <span class="material-symbols-rounded text-[#F96262] w-[16px] h-[15.56px] pt-[16px] pl-[16px]">
+          arrow_back
+        </span>
+      </a>
+      <a href="#" class="w-[56px] h-[56px] bg-[#FFFFFF] rounded-full shadow-[4px_6px_50px_rgba(0,0,0,0.1)]">
+        <span class="material-symbols-rounded text-[#F96262] w-[16px] h-[15.56px] pt-[16px] pl-[16px]">
+          arrow_forward
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <section class="flex justify-between pr-[145px] pt-[150px] pb-[100px] w-[1350px] h-[630px] bg-[#0F0F0F]">
+    <div>
+      <div>
+        <img class="ml-[145px]" src="Images/dental/fAQ.png" alt="FAQ">
+        <!--<img src="Images/dental/Arrow 2.png" alt="Arrow">
+        <img src="Images/dental/Arrow 3.png" alt="Arrow">-->
+      </div>
+      <span class="w-[450px] h-[138px] font-[700] text-[49px] leading-[68.6px] text-[#FFEBEB] ml-[143px] mt-[-68px] block">
+        Frequently Asked Questions
+      </span>
+      <span class="text-[#949494] text-[16px] font-[400] w-[400px] h-[78px] leading-[28.8px] block ml-[143px] mt-[24px]">
+        Everything you need to know so you can use Dental Bro like a pro
+      </span>
+    </div>
+    <div class="flex flex-col justify-between">
+      <span class="flex justify-between border-[1px] py-[25.5px] pl-[20px] border-r-[0px] w-[550px] font-[500] text-[#FFF5F5] text-[16px] leading-[28.8px]" style="
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left,#0F0F0F,#9875FF,#F96262);">
+        How often should I schedule a dental check-up?    
+        <a href="#">
+          <img src="Images/dental/arrow.png" alt="Arrow">
+        </a>
+      </span>
+      <span class="flex justify-between border-[1px] py-[25.5px] pl-[20px] border-r-[0px] w-[550px] font-[500] text-[#FFF5F5] text-[16px] leading-[28.8px]" style="
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left,#0F0F0F,#9875FF,#F96262);">
+        How can I reduce the sensitivity of my teeth?    
+        <a href="#">
+          <img src="Images/dental/arrow.png" alt="Arrow">
+        </a>
+      </span>
+      <span class="flex justify-between border-[1px] py-[25.5px] pl-[20px] border-r-[0px] w-[550px] font-[500] text-[#FFF5F5] text-[16px] leading-[28.8px]" style="
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left,#0F0F0F,#9875FF,#F96262);">
+        How can I whiten my teeth safely?    
+        <a href="#">
+          <img src="Images/dental/arrow.png" alt="Arrow">
+        </a>
+      </span>
+      <span class="flex justify-between border-[1px] py-[25.5px] pl-[20px] border-r-[0px] w-[550px] font-[500] text-[#FFF5F5] text-[16px] leading-[28.8px]" style="
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left,#0F0F0F,#9875FF,#F96262);">
+        How can I improve my smile?    
+        <a href="#">
+          <img src="Images/dental/arrow.png" alt="Arrow">
+        </a>
+      </span>
+    </div>
+  </section>
+
+  <section class="flex w-[1350px] h-[480px] bg-gradient-to-r from-[#F8F8F8] to-[#4DCCBD]">
+    <div class="pt-[105px] ml-[80px]">
+      <span class="w-[890px] h-[162px] text-[#212121] text-[36px] font-[700] leading-[54px] block">
+        Schedule your appointment today and experience the difference of our patient-centered approach.
+      </span>
+      <div class="mt-[48px] flex">
+        <div class="group w-[250px] h-[60px] rounded-[8px]">
+          <button class="w-[250px] h-[60px] bg-[#F96262] rounded-[8px] text-[#FFFFFF]
+          text-[16px] font-[500] leading-[19.2px]  group-hover:bg-[#474747] 
+          group-hover:text-[#F96262] duration-150">Book An Appointment</button>
+        </div>
+        <div class="group">
+          <button class="bg-transparent w-[197px] h-[60px] rounded-[8px] ml-[12px] border-[1px] border-[#F96262]
+            text-[#F96262] text-[16px] font-[500] leading-[19.2px] group-hover:bg-[#474747] duration-150 group-hover:border-none">
+            Our Services
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="mt-[80px] ml-[-80px]">
+      <div class="ml-[215px] mb-[19px]">
+        <div class="w-[72px] h-[72px] rounded-[8px] bg-[#D9D9D9]"></div>
+        <div class="mt-[-95px] ml-[5px] bg-[#8EA5D8] w-[150px] h-[90px] rounded-[8px] px-[24px] py-[12px]">
+          <span class="w-[105px] h-[65px] text-[#FFFADE] text-[14px] font-[500] leading-[21px]">
+            340+ Surgery Successfully done
+          </span>
+        </div>
+      </div>
+      <img src="Images/dental/machine.png" alt="Machine">
+      <div class="w-[380px] h-[80px] bg-[#F96262] rounded-t-[40px] mt-[-30px]"></div>
+    </div>
+  </section>
+  
+  <section class="bg-[#F8F8F8] w-[1350px] h-[340px] flex justify-evenly pt-[53px] pb-[50px]">
+    <div class="flex flex-col justify-between">
+      <span class="w-[144px] h-[43px] font-[800] text-[24px] leading-[43.2px] text-[#000000]">Dental Bros</span>
+      <span class="w-[383px] h-[117px] font-[400] text-[16px] leading-[28.8px] text-[#3D3D3D]">
+        From routine cleanings to complex procedures, our team of experienced professionals is dedicated to providing you with the best possible care.
+      </span>
+
+      <div class="flex justify-between w-[130px]">
+        <a href="#">
+          <img class="w-[23.33px] h-[23.33px]" src="Images/facebook.png" alt="Facebook Logo">
+        </a>
+        <a href="#">
+          <img class="w-[23.33px] h-[23.33px]" src="Images/twitter.png" alt="Twitter Logo">
+        </a>
+        <a href="#">
+          <img class="w-[23.33px] h-[23.33px]" src="Images/instagram.png" alt="Instragram Logo">
+        </a>
+        <a href="#">
+          <img class="w-[23.33px] h-[23.33px]" src="Images/linkedin.png" alt="Linkedin Logo">
+        </a> 
+      </div>
+
+    </div>
+    
+    <div>
+      <ul class="">
+        <li class="w-[107px] h-[32px] font-[600] text-[#212121] text-[18px] leading-[32.4px] mb-[28px]">Useful Links</li>
+        <div class="flex flex-col justify-between">
+          <a href="">
+            <li class="w-[42px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">Home</li>
+          </a>
+          <a href="">
+            <li class="w-[58px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">Services</li>
+          </a>
+          <a href="">
+            <li class="w-[68px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">Specialist</li>
+          </a>
+          <a href="">
+            <li class="w-[63px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">About Us </li>
+          </a>
+          <a href="">
+            <li class="w-[56px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">Reviews</li>
+          </a>
+        </div>
+      </ul>
+    </div>
+
+    <div>
+      <ul class="">
+        <li class="w-[77px] h-[32px] font-[600] text-[#212121] text-[18px] leading-[32.4px] mb-[28px]">Account</li>
+        <a href="">
+          <li class="w-[41px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">Log In</li>
+        </a>
+        <a href="">
+          <li class="w-[137px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">Terms & Conditions</li>
+        </a>
+        <a href="">
+          <li class="w-[94px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">Refund Policy</li>
+        </a>
+        <a href="">
+          <li class="w-[95px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">Privacy Policy</li>
+        </a>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li class="w-[101px] h-[32px] font-[600] text-[#212121] text-[18px] leading-[32.4px] mb-[28px]">Contact Us</li>
+        <a class="flex" href="">
+          <span class="material-symbols-rounded mr-[13px] text-[#3D3D3D]">
+            mail
+          </span>
+          <li class="w-[166px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">dentalbros@gmail.com</li>
+        </a>
+        <a class="flex" href="">
+          <span class="material-symbols-rounded mr-[13px] text-[#3D3D3D]">
+            call
+          </span>
+          <li class="w-[108px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px] mb-[12px]">+ 034-456-890</li>
+        </a>
+        <a class="flex" href="">
+          <span class="material-symbols-rounded mr-[13px] text-[#3D3D3D]">
+            location_on
+          </span>
+          <li class="w-[174px] h-[25px] font-[400] text-[#3D3D3D] text-[14px] leading-[25.2px]">23 Street, Tammana Hall,<br>New York</li>
+        </a>
+      </ul>
+    </div>
+
+  </section>
+
+  <hr class="border-[1px]">
+
+  <div class="flex justify-center">
+    <img class="w-[15px] h-[15px] mt-[20px] mr-[7.5px]" src="Images/dental/c.png" alt="Symbol">
+    <span class="mt-[17px] mb-[26px] w-[203px] h-[22px] text-[#3D3D3D] text-[12px] font-[400] leading-[21.6px]">
+      All rights reserved By YouNeedSite
+    </span>
+  </div>
+
+</body>
+</html>
